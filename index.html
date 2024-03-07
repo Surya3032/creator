@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Sound</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .main-filters {
+            height: 70vh; 
+            overflow-y: auto; 
+        }
+        .logo {
+            position: fixed;
+            top: 55px; 
+            right: 350px; 
+            z-index: 1000; 
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="https://en.wikipedia.org/wiki/Animal">Animals Sound</a></h1>
+
+    <button id="modeToggle" class="mode-toggle">Dark Mode</button>
+
+    <div class="sidebar-menus">
+        <a href="https://www.instagram.com/surya_kopparthi/"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+    </div>
+
+    <div class="main-navbar">
+        <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+        <div class="Search">
+            <input type="text" placeholder="Search Creature Name">
+            <button class="Search-btn">Search</button>
+        </div>
+    </div>
+
+    <div class="main-filters">
+        <div class="filter-card">
+            <div class="filter-icon">
+                <a href="lion.html"><img src="lion.jpg"  height="180" width="180" ></a>
+            </div>
+            <p style="font-size: medium;">LION</p>
+            <audio src="lion-lament-6926.mp3" controls></audio>  
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <a  href="lion.html"><img src="tiger.jpg"  height="180" width="180" ></a>
+            </div>
+            <p style="font-size: medium;">TIGER</p>
+            <audio src="angry-tiger-fantasy-95609.mp3" controls></audio> 
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <a href=""><img src="pig.jpg"  height="180" width="180" ></a>
+            </div>
+            <p style="font-size: medium;">PIG</p>
+            <audio src="pig-74642.mp3" controls></audio> 
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <a href="lion.html"><img src="cat.jpg"  height="180" width="180" ></a>
+            </div>
+            <p style="font-size: medium;">CAT</p>
+            <audio src="cat.mp3" controls></audio> 
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <a href="lion.html"><img src="horse.jpg"  height="180" width="180" ></a>
+            </div>
+            <p style="font-size: medium;">HORSE</p>
+            <audio src="horse.mp3" controls></audio> 
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <a href="lion.html"><img src="fox.jpg"  height="180" width="180" ></a>
+            </div>
+            <p style="font-size: medium;">FOX</p>
+            <audio src="fox-3-47779 (1).mp3" controls></audio> 
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <a href="lion.html"><img src="leapord.jpg"  height="180" width="180" ></a>
+            </div>
+            <p style="font-size: medium;">LEPORD</p>
+            <audio src="lepord-6172 (1).mp3" controls></audio> 
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <a href="lion.html"><img src="elephant.jpg"  height="180" width="180" ></a>
+            </div>
+            <p style="font-size: medium;">ELEPHANT</p>
+            <audio src="elephant-154831.mp3" controls></audio> 
+        </div>
+        <div class="filter-card">
+            <div class="filter-icon">
+                <a href="lion.html"><img src="dog.jpg"  height="180" width="180" ></a>
+            </div>
+            <p style="font-size: medium;">DOG</p>
+            <audio src="dog.mp3" controls></audio> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
